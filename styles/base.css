@@ -1,7 +1,37 @@
 .Name {
 	font-family: 'Raleway', sans-serif;
+	font-size: 6em;
 }
 
 .HeaderSection {
-	margin: auto;
+	margin-top: 70px;
+	text-align: center;
+}
+
+.resume-link {
+	display: none;
+	color: black;
+	font-size: 1em;
+	text-align: center;
+}
+.social-media-icon {
+	color: black;
+	margin: 0.25em;
+}
+.social-media-icon:hover {
+	text-decoration: none;
+}
+
+.resume-link:hover {
+	text-decoration: none;
+}
+.ExternalLinksSection {
+	text-align: center;
+}
+
+body { 
+    background-image: url('/images/mountains-1081968_1920.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
 }
