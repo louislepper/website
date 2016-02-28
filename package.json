@@ -1,0 +1,24 @@
+{
+  "name": "louislepper.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "babel dev/main-dev.js --watch --out-file main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louislepper/website.git"
+  },
+  "author": "Louis Lepper",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/louislepper/website/issues"
+  },
+  "homepage": "https://github.com/louislepper/website#readme"
+}
