@@ -4,7 +4,7 @@
 }
 
 .HeaderSection {
-	margin-top: 70px;
+	margin-top: 7em;
 	text-align: center;
 }
 
@@ -34,4 +34,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
+}
+#bootstrap-bug {
+	padding: 0 15px;
 }
