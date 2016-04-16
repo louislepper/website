@@ -14,6 +14,10 @@
 	}
 }
 
+#cf_alert_div {
+	display: none;
+}
+
 .resume-link {
 	display: none;
 	color: black;

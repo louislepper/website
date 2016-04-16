@@ -14,8 +14,7 @@ var clean = require('gulp-clean');
 
 var inlinesource = require('gulp-inline-source');
 
-
-
+var smoosher = require('gulp-smoosher');
 
 // JS hint task
 gulp.task('jshint', function() {
@@ -70,6 +69,7 @@ gulp.task('default', function (callback) {
         'copyindex',
         'transpile',
         'inlinesource',
+        'inlinecss',
         function (error) {
             if (error) {
                 console.log(error.message);
@@ -78,6 +78,12 @@ gulp.task('default', function (callback) {
             }
             callback(error);
         });
+});
+
+gulp.task('inlinecss', function() {
+    return gulp.src('./target/index.html')
+        .pipe(smoosher())
+        .pipe(gulp.dest('./target'));
 });
 
 gulp.task('clean', function () {
